@@ -1,0 +1,23 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+.bg-offset-hero::after {
+	position: absolute;
+	content: '';
+	width: 75%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color:  #f9d8b3;
+}
+
+.quote_ {
+	opacity: 0.1;
+}
+
+@media (max-width: 767.98px) {
+	.bg-offset-hero::after {
+		width: 100%;
+}
+}

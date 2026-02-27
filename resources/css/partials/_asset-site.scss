@@ -1,0 +1,11 @@
+
+/* reset minimo */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Lora', serif; }
+
+/* tipografia */
+h1 { font-size: calc(0.5rem + 8vmin); font-weight: 600; font-style: italic; }
+h2 { font-size: calc(0.8rem + 4vmin); font-weight: 600; font-style: italic; line-height: 1.2; }
+p  { font-size: calc(0.8rem + 1.25vmin); line-height: 1.65; }
+
