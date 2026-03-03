@@ -16,8 +16,8 @@ class PublicController extends Controller
     { 
         return view('pages.trattamenti'); 
     } 
-    public function promozioni() { 
-        return view('pages.promozioni'); 
+    public function nailArt() { 
+        return view('pages.nailArt'); 
     } 
     public function contatti() { 
         return view('pages.contatti'); 

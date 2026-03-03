@@ -19,10 +19,10 @@
                     <a class="nav-link" href="{{ route('centro-estetico') }}">CENTRO ESTETICO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('trattamenti') }}">TRATTAMENTI</a>
+                    <a class="nav-link" href="{{ route('trattamenti') }}">TRATTAMENTI VISO E CORPO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('promozioni') }}">PROMOZIONI</a>
+                    <a class="nav-link" href="{{ route('nailArt') }}">NAIL ART</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contatti') }}">CONTATTI</a>

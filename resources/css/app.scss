@@ -1,10 +1,23 @@
 @import "bootstrap/scss/bootstrap";
 @import "partials/navbar";
-@import "partials/hero";
-@import "partials/about";
-@import "partials/promo";
-@import "partials/treatments";
-@import "partials/opening";
-@import "partials/testimonial";
-@import "partials/prodotti";
+
 @import "partials/asset-site";
+
+// IMPORT HOMEPAGE
+@import "partials/homepage/hero";
+@import "partials/homepage/about";
+@import "partials/homepage/promo";
+@import "partials/homepage/treatments";
+@import "partials/homepage/opening";
+@import "partials/homepage/testimonial";
+@import "partials/homepage/prodotti";
+
+// IMPORT PAGINA CENTRO ESTETICO
+@import "partials/paginaCentroEstetico/centro";
+@import "partials/paginaCentroEstetico/p-treatments";
+@import "partials/paginaCentroEstetico/imgCentro";
+
+
+// IMPORT PAGINA CONTATTI
+@import "partials/paginaContatti/contact";
+@import "partials/paginaContatti/doveSiamo";
