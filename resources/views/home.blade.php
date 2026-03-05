@@ -7,14 +7,14 @@
 {{-- SEZIONE HERO INIZIO --}}
 
 <section class="inizio-hero-section position-relative"> 
-    <img src="/images/hero.jpg" class="inizio-hero-img"> 
+    <img src="/images/hero2.jpg" class="inizio-hero-img"> 
     <div class="inizio-hero-overlay d-flex align-items-center">
         <div class="container text-white">
         <div class="row">
             <div class="col-lg-7">
             <h1 class="display-4 fw-bold">Ritrova la tua bellezza</h1>
             <p class="lead mb-4">Trattamenti esclusivi, prodotti selezionati e un’esperienza su misura.</p>
-            <a class="btn btn-lg btn-light me-2" href="#trattamenti">SCOPRI I TRATTAMENTI</a>
+            <a class="btn btn-lg btn-light me-2" href="{{ route('trattamenti') }}">SCOPRI I TRATTAMENTI</a>
             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#bookingModal">PRENOTA ORA</button>
             </div>
         </div>
@@ -70,7 +70,7 @@
 
         <!-- BUTTON -->
         <div class="text-center">
-            <a href="/centro-estetico" class="btn btn-accent btn-lg px-4">
+            <a href="{{ route('centro-estetico') }}" class="btn btn-accent btn-lg px-4">
                 CENTRO ESTETICO
             </a>
         </div>
@@ -125,7 +125,7 @@
           </div>
           <div class="card-footer">
             <div class="icons d-flex justify-content-center m-3">
-              <a class="icon-link" title="More Info" aria-label="More Info" href="#">
+              <a class="icon-link" title="More Info" aria-label="More Info" href="{{ route('trattamenti') }}">
                 <i class="fa-solid fa-info fa-md"></i>
               </a>
             </div>
@@ -154,7 +154,7 @@
           </div>
           <div class="card-footer">
             <div class="icons d-flex justify-content-center m-3">
-              <a class="icon-link" title="More Info" aria-label="More Info" href="#">
+              <a class="icon-link" title="More Info" aria-label="More Info" href="{{ route('trattamenti') }}">
                 <i class="fa-solid fa-info fa-md"></i>
               </a>
             </div>
@@ -183,7 +183,7 @@
           </div>
           <div class="card-footer">
             <div class="icons d-flex justify-content-center m-3">
-              <a class="icon-link" title="More Info" aria-label="More Info" href="#">
+              <a class="icon-link" title="More Info" aria-label="More Info" href="{{ route('trattamenti') }}">
                 <i class="fa-solid fa-info fa-md"></i>
               </a>
             </div>
@@ -206,7 +206,7 @@
     <div class="meta">
       <div class="meta__inner">
         <h3>I nostri Prodotti</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi <a href="#">read more ...</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi</p>
       </div>
     </div>
 </div>

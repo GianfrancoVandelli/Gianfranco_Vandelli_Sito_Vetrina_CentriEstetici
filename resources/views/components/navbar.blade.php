@@ -16,6 +16,9 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav align-items-lg-center">
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home') }}">HOME</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('centro-estetico') }}">CENTRO ESTETICO</a>
                 </li>
                 <li class="nav-item">
